@@ -434,7 +434,7 @@ F<!DOCTYPE html>
         <textarea id="message" name="message" rows="4" required class="w-full bg-[#0a0a0a] border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-white/30 focus:ring-1 focus:ring-white/30 transition-colors" placeholder="Tell me what you need done..."></textarea>
     </div>
 
-    <button type="submit" id="submitBtn" class="w-full bg-white text-black font-bold py-4 rounded-lg hover:bg-gray-200 transition-colors flex items-center justify-center gap-2">
+    <button type="submit" id="submitbtn" class="w-full bg-white text-black font-bold py-4 rounded-lg hover:bg-gray-200 transition-colors flex items-center justify-center gap-2">
         Send Request <i class="fas fa-paper-plane text-sm"></i>
     </button>
 </form>
@@ -469,9 +469,9 @@ F<!DOCTYPE html>
     </footer>
 
     <script>
-    const form = document.getElementById('contactForm');
+    const form = document.getElementById('contactform');
     const successMsg = document.getElementById('successMsg');
-    const submitBtn = document.getElementById('submitBtn');
+    const submitBtn = document.getElementById('submitbtn');
 
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
